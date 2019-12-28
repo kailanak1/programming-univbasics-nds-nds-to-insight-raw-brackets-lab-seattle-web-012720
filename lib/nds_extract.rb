@@ -14,6 +14,7 @@ def directors_totals(nds)
       j += 1 
     end 
     i += 1
-    return hash[directors] = total  
+    hash[directors] = total 
+    return hash 
   end 
 end 
